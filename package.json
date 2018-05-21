@@ -8,6 +8,7 @@
   "dependencies": {
     "@sendgrid/mail": "^6.2.0",
     "bluebird": "^3.5.1",
+    "aws-sdk": "^2.147.0",
     "body-parser": "~1.17.1",
     "cheerio": "^1.0.0-rc.2",
     "cookie-parser": "~1.4.3",
