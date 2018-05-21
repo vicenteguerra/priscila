@@ -53,7 +53,6 @@ let creaCadenaPago = function(req, res){
         //ENCRYPTAR XML
         var encryptedXML = encrypt(credentials.key, parsedXML);
 
-
         //CREAR OBJETO XML PARA ENVIAR
         var toSend = {
           pgs:{
