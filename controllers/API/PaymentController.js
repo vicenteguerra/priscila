@@ -17,7 +17,7 @@ let AESEncryption = function(){
   this.decrypt = decrypt;
 };
 
-let creaCadenaPago = function(req, res){
+let creaCadenaPago = function(data){
     console.log("CREANDO CADENA PAGO");
     credentials = {
         key: "5DCC67393750523CD165F17E1EFADD21",
@@ -33,8 +33,8 @@ let creaCadenaPago = function(req, res){
                 pwd: "SECRETO"
             },
             url:{
-                reference: req.params.reference,
-                amount: req.params.amount,
+                reference: data.reference,
+                amount: data.amount,
                 moneda: "MXN",
                 canal: "W",
                 omitir_notif_default: 1,
