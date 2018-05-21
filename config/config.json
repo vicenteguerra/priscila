@@ -1,0 +1,42 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Shoegaz3",
+    "database": "voice",
+    "host": "localhost",
+    "dialect": "mysql",
+    "logging": false,
+    "omitNull": false,
+    "timezone": "America/Mexico_City",
+    "define": {
+      "freezeTableName": true,
+      "paranoid": true
+    },
+    "pool": {
+      "max": 50,
+      "min": 1,
+      "idle": 10000,
+      "acquire": 30000
+    }
+  },
+  "qa": {
+    "username": "nerds",
+    "password": "q7UcqE_%yFmM",
+    "database": "voice",
+    "logging": false,
+    "host": "ecommerce-dev.cgteayzemion.us-west-2.rds.amazonaws.com",
+    "dialect": "mysql",
+    "timezone": "America/Mexico_City",
+    "omitNull": false,
+    "define": {
+      "freezeTableName": true,
+      "paranoid": true
+    },
+    "pool": {
+      "max": 50,
+      "min": 1,
+      "idle": 10000,
+      "acquire": 30000
+    }
+  }
+}
